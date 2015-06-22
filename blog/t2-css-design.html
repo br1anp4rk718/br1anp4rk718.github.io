@@ -2,7 +2,7 @@
 <head>
   <title>Week 2 CSS</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+  <link rel="stylesheet" type="text/css" href="../default.css">
 </head>
 
 <main>
@@ -11,16 +11,16 @@
   <h4>June 21st, 2015</h4>
 
   <section>
-    <p>
+    <p class ='vs'>
       The differences between classes and ID's seem pretty fairly obvious at first. ID's are unique and can't have more than one of the same ID name in an html file and Classes can belong to multiple elements. You might be wondering why we need to use these identifiers? We associate ID's and Classes to tags in the html document due to the fact that we need to be able to single out elements or group of elements to apply our styling to. Once we associate an ID or Class with an element, we can create a seperate stylesheet (CSS) and help to design specific parts of our HTML skeleton.
     </p>
-    <p>
+    <p class='vs'>
         As I mentioned above, it seems that it's pretty easy to distinguish the differences between Classes and ID's, right? The hard part is being able to determine when and where you should be using these identifiers. You want to be able to use ID's where you want to isolate a single element in your HTML document. For example, if you want to target a specifc list on your web page, you can give it an ID and help to style ONLY that specific list. The styles and commands you give for that ID name in your CSS sheet will ONLY affect that element.
     </p>
-    <p>
+    <p class='vs'>
         For classes, we want to be able to associate class names with elements that we want the same design and formatting for. If your web page contained multiple buttons, and you wanted all of these buttons to have the same margins, styling, font, and size, we could just help to write down the Class name in our CSS sheet, and insert styling commands which will be applied for ALL the elemnents you associated that Class name with.
     </p>
-    <p>
+    <p class='vs'>
         How do we write the Class name in our CSS Sheet? I'm glad you asked.
 
         In your CSS document (should end with filename.css), you can do the following
@@ -39,6 +39,11 @@
 
         Just need to remember for Classes, put the "." before the Classname (no space!) and for ID's, insert the "#" sign before the ID Name.
     </p>
+
+    <p id ='footer'><a href='../index.html'>Home</a>
+          <a href='#'>Contact</a>
+          <a href='#'>Blog</a>
+     </p>
 
       <!-- copy and paste as many sections as you want to add paragraphs -->
   </section>
