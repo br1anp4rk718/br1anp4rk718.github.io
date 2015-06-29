@@ -1,41 +1,61 @@
 body {
 
 	font-size:2em;
-	font-family:Impact;
-	background-image:url(http://previews.123rf.com/images/cluckva/cluckva1202/cluckva120200032/12480858-Dotted-metal-abstract-backround-Stock-Vector-background-abstract-gray.jpg)
+	font-family:'roboto condensed';
+
+
+
 
 }
 
 h1 {
 	text-align:center;
 	font-size:1.5em;
+	vertical-align:middle;
+	line-height: 200px;
+	color:#E4AD5D;
+	position:relative;
+	left:140px;
+
+
 }
 
-.header {
+header {
 	text-align: center;
 	font-weight:bolder;
-	border:5px solid #8C9CB2;
-	border-style:inset;
+	border:none;
+	
 
 }
 
 #name {
 	font-size:.5em;
+	position:relative;
+	left:140px;
+	top:-100px;
+	color:#E4AD5D;
+
 
 }
 
 img {
-	height:6em;
-	width:7em;
+	height:8em;
+	width:11em;
+	position:relative;
+	left:140px;
+
 }
 
 #pics {
 	text-align: center;
 	padding:50px 50px;
+	float:center;
+
+
 
 }
 
-#footer {
+footer {
 	position:absolute;
 	height:2em;
 	width:100%;
@@ -46,19 +66,28 @@ img {
 
 }
 
-.contact {
+header .contact {
 	border-style:none;
 	font-size:20px;
+	text-align:left;
 
 }
 
 .buttons {
 	text-align:center;
+	position:relative;
+	left:140px;
 }
 
 button {
 	margin:30px 30px;
 	font-size:20px;
+	border:none;
+	background-color:#FFFFFF;
+}
+
+a:hover {
+	background-color:#0AD6DF;
 }
 
 a {
@@ -68,23 +97,34 @@ a {
 #info {
 	text-align:center;
 	font-size:20px;
+	position:relative;
+	left:140px;
 }
 
 .social {
-	font-size:10px;
+	font-size:30px;
 	font-weight:lighter;
+	color:#;
+
+
+
 }
 
 .tech {
 	font-size:16px;
-	position:absolute;
+	position:relative;
 	margin-left:200px;
+	left:140px;
+
 }
 
 .cult {
 	font-size:16px;
 	float:right;
-	margin-right:200px;
+	margin-right:100px;
+	position:relative;
+	top:-352px;
+
 
 }
 
@@ -92,18 +132,50 @@ a {
 	text-align:center;
 }
 
-.vs {
+article {
 	font-size:20px;
+	position:relative;
+	text-align:middle;
+
 }
 
 
 h2 {
 	text-align: center;
 	font-size:40px;
-	background-color:#585858;
+	position:relative;
+	left:140px;
+
 }
 
 .frontpage {
-	background-color:#585858;
+	background-color:#0E3352;
+	height:200px;
+
+	
+}
+
+.contact {
+	position:fixed;
+	background-color:#E4AD5D;
+	top: 0;
+	left: 0;
+	width:20%;
+	height:100%;
+	background-color:#E4BB83;
+
+
+}
+
+.contact .social {
+	color:#585858;
+}
+
+section {
+	text-align:middle;
+	position:relative;
+	width:75%;
+	left:280px;
+
 }
 
