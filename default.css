@@ -2,7 +2,7 @@ body {
 
 	font-size:2em;
 	font-family:'roboto condensed';
-
+	background-color:#FFFCF5;
 
 
 
@@ -13,9 +13,9 @@ h1 {
 	font-size:1.5em;
 	vertical-align:middle;
 	line-height: 200px;
-	color:#E4AD5D;
 	position:relative;
 	left:140px;
+	color:#FFFCF5;
 
 
 }
@@ -33,7 +33,7 @@ header {
 	position:relative;
 	left:140px;
 	top:-100px;
-	color:#E4AD5D;
+	color:#FFFCF5;
 
 
 }
@@ -63,12 +63,13 @@ footer {
 	display:block;
 	font-size:15px;
 	margin-top:500px;
+	left:100px;
 
 }
 
 header .contact {
 	border-style:none;
-	font-size:20px;
+	font-size:10px;
 	text-align:left;
 
 }
@@ -77,21 +78,23 @@ header .contact {
 	text-align:center;
 	position:relative;
 	left:140px;
+	margin-bottom:100px
+
 }
 
 button {
 	margin:30px 30px;
 	font-size:20px;
 	border:none;
-	background-color:#FFFFFF;
+	background-color:#FFFCF5;
+	color:#625A47;
+	text-decoration: none;
 }
 
-a:hover {
-	background-color:#0AD6DF;
-}
 
 a {
 	margin:30px 30px;
+	text-decoration: none;
 }
 
 #info {
@@ -99,12 +102,13 @@ a {
 	font-size:20px;
 	position:relative;
 	left:140px;
+	color:#625A47;
 }
 
 .social {
 	font-size:30px;
 	font-weight:lighter;
-	color:#;
+	color:#FFFCF5;
 
 
 
@@ -149,7 +153,7 @@ h2 {
 }
 
 .frontpage {
-	background-color:#0E3352;
+	background-color:#AFA897;
 	height:200px;
 
 	
@@ -157,18 +161,17 @@ h2 {
 
 .contact {
 	position:fixed;
-	background-color:#E4AD5D;
 	top: 0;
 	left: 0;
 	width:20%;
 	height:100%;
-	background-color:#E4BB83;
+	background-color:#D6D1C4;
 
 
 }
 
 .contact .social {
-	color:#585858;
+	color:#FFFCF5;
 }
 
 section {
@@ -177,5 +180,10 @@ section {
 	width:75%;
 	left:280px;
 
+}
+
+a:visited {
+	color:#625A47;
+	text-decoration:none;
 }
 
