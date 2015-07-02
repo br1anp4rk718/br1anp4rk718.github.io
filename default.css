@@ -24,6 +24,7 @@ header {
 	text-align: center;
 	font-weight:bolder;
 	border:none;
+
 	
 
 }
@@ -69,8 +70,11 @@ footer {
 
 header .contact {
 	border-style:none;
-	font-size:10px;
-	text-align:left;
+	font-size:20px;
+	text-align:center;
+	color:#625A47;
+
+
 
 }
 
@@ -169,10 +173,7 @@ h2 {
 
 
 }
-
-.contact .social {
-	color:#FFFCF5;
-}
+	 
 
 section {
 	text-align:middle;
@@ -186,4 +187,22 @@ a:visited {
 	color:#625A47;
 	text-decoration:none;
 }
+
+h2 {
+	position:relative;
+	left:-70px;
+	font-size:20px;
+}
+
+.left {
+	background-color:#D6D1C4;
+
+}
+
+.twit {
+	position:relative;
+	left:1px;
+
+}
+
 
