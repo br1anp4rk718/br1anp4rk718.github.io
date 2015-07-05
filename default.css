@@ -32,7 +32,7 @@ header {
 #name {
 	font-size:.5em;
 	position:relative;
-	left:140px;
+	left:120px;
 	top:-100px;
 	color:#FFFCF5;
 
@@ -97,8 +97,11 @@ button {
 
 
 a {
-	margin:30px 30px;
+	margin:40px 40px;
 	text-decoration: none;
+	font-size:20px;
+	color:#625A47;
+	
 }
 
 #info {
@@ -131,7 +134,7 @@ a {
 	float:right;
 	margin-right:100px;
 	position:relative;
-	top:-352px;
+	top:-454px;
 
 
 }
@@ -149,10 +152,15 @@ article {
 
 
 h2 {
+
 	text-align: center;
 	font-size:40px;
 	position:relative;
-	left:140px;
+	margin-left:380px;
+	margin-top:-200px;
+
+
+
 
 }
 
@@ -205,4 +213,20 @@ h2 {
 
 }
 
+.mail {
+	position:relative;
+	left:1px;
 
+}
+
+.github {
+	position:relative;
+	left:1px;
+
+}
+
+h4 {
+	text-align:center;
+	position:relative;
+	left:120px;
+}
