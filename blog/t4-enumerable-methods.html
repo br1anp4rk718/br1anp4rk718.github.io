@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+  <title>Week 3 Arrays vs Hashes</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../default.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>
+</head>
+
+<main>
+
+  <header>
+    
+  <h1 class='frontpage'>Path To Becoming a Dev</h1>
+      <p id ='name'>Brian Hyung Jo Park</p>
+  
+  <div class = 'contact'><br><br>Contact Info
+    <br><br><br>
+    <a href='https://twitter.com/br1anp4rk718'>Twitter</a>
+    <br>
+    <img src='http://youngist.org/images/icon-social-twitter.svg' class='twit' alt='twitter' style='width:40px;height:50px;'>
+    <br><br><br>
+    <a href="malito:br1anp4rk718@gmail.com">Email Me</a>
+    <br><br>
+    <img src='https://cdn0.iconfinder.com/data/icons/seo-smart-pack/128/grey_new_seo-15-512.png' class='mail' style='width:40px;height:50px;'>
+    <br><br><br><br>
+    <a href='https://github.com/br1anp4rk718'>Github</a>
+    <br><br>
+    <img src='https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQslMk1Qa0n4Atu1kFni-g5d7iJEwxVt2-NCvVuh9GtRfi31s3h5Q' class='github' style='width:40px;height:50px;'>
+  </div>
+  
+  </header>
+  <h1>Enumerable Methods</h1>
+  <h2>Enumerable#cycle</h2>
+  <h4>July 12th, 2015</h4>
+
+  <section>
+    <article>
+    What is an Enumerable module you might ask? Well the answer is that the module provides a set of methods a way to traverse, sort, search and manipulate collections of data. The only requirement of classes that use Enumerables require is that the class has to define an instance method called each, and in return, the Enumerable gives the objects of the specific class with different sorts of collection related behaviors.
+      
+    </article>
+
+    <article>
+    For today's blog I am going to focus in on Enumerable#cycle.
+    What the cycle method does is that when called on an object, it iterates infinitely, which produces an infinite loop(When called without a block). When passing an argument to cycle, it specifies to the number of times to "cycle", not the number of elements to cycle through.
+    </article>
+    <article>
+    <br><br><br>
+    <img src='../imgs/cycle.jpg' style='width:50%;height:10%'>
+    <br><br><br>
+    When #cycle is not passed to a block, it automatically returns an Enumerator. When that Enumerator is retrieved, it can use all different sorts of methods to retrieve and manipulate data. From there we can chain method #cycle, in order to find the next, last, and other internal methods that ruby has already built in. <br><br><br>
+
+    <img src ='../imgs/cycleex.jpg' style='width:50%;height:10%'><br><br><br>
+
+    The example above shows an example of how the #cycle Enumerator works. Note that when calling "next" on the cycle_enumerator produces a different value each time. This works because it originated from #cycle, and by calling next, it just returns the next element in the array via the cycle circle. Using these enumerable methods will able us to use more pragmatic and readable code. Seems like a win win to me!
+
+    </article>
+    <article>
+      
+
+        
+    </article> 
+      </section>
+
+    <footer><a href='../index.html'>Home</a>
+          <a href='#'>Contact</a>
+          <a href='index.html'>Blog</a>
+    </footer>
