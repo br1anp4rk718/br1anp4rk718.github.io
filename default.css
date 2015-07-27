@@ -82,7 +82,8 @@ header .contact {
 	text-align:center;
 	position:relative;
 	left:140px;
-	margin-bottom:100px
+	margin-bottom:100px;
+	font-weight:bold;
 
 }
 
@@ -230,4 +231,24 @@ h4 {
 	text-align:center;
 	position:relative;
 	left:120px;
+}
+
+.me {
+	position:relative;
+	left:315px;
+
+}
+
+.bulletpoints {
+	font-weight:bold;
+	font-size:16px;
+}
+
+.highlights {
+	position:relative;
+	margin-left:200px;
+	left:180px;
+	bottom:100px;
+
+
 }
