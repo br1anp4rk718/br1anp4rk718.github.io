@@ -7,12 +7,13 @@
 
 .twit {
 	margin-right: 50px;
+	margin-bottom: 10px;
 }
 
 
 footer {
 	text-align: center;
-
+	margin-top:200px;
 }
 
 
@@ -64,7 +65,8 @@ footer {
 #navigate {
 	background-color:#1D2326;
 	margin-top:50px;
-
+	text-align: left;
+	margin:10px 10px;
 }
 
 
@@ -79,6 +81,14 @@ footer {
 	min-height:300px;
 	min-width:300px;
 
+
+}
+
+.icon {
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-right:20px;
+	margin-left:20px;
 
 }
 
@@ -116,6 +126,8 @@ h2 {
 }
 
 #colors {
+	border: 2px solid #FEB729;
+	margin-top:30px;
 
 }
 
@@ -132,7 +144,10 @@ h2 {
 }
 
 .path {
-	color:#A9a9a9;
+	color:#00275E;
+	font-weight:bolder;
+	font-size:15px;
+	font-style:oblique;
 }
 
 ul {
@@ -143,9 +158,11 @@ ul {
 }
 
 #cult-blog {
-	margin-top:30px;
 	color:#00275E;
-
+	text-align:center;
+	background:url('http://www.gfi.com/blog/wp-content/uploads/2009/09/Note-to-Self.jpg');
+	background-size:580px 500px;
+	background-repeat:no-repeat;	
 }
 
  @media (min-width:50%) {
@@ -172,4 +189,11 @@ ul {
 	margin-top:50px;
 }
 
+#tech-blog {
+	text-align:center;
+	background:url('http://www.gfi.com/blog/wp-content/uploads/2009/09/Note-to-Self.jpg');
+	background-size:580px 450px;
+	background-repeat:no-repeat;
 
+
+}
