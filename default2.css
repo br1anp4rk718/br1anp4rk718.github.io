@@ -9,13 +9,6 @@
 	margin-right: 50px;
 }
 
-.front_page_pic {
-
-
-
-}
-
-
 
 footer {
 	text-align: center;
@@ -35,14 +28,14 @@ footer {
 
 }
 
-/*
+
 @media (min-width:400px) {
 	#about_me{
 		max-width:700px;
 		min-height:600px;
 	}
 }
-*/
+
 
 .bio {
 	color:black;
@@ -86,6 +79,7 @@ footer {
 	min-height:300px;
 	min-width:300px;
 
+
 }
 
 .asian {
@@ -96,7 +90,6 @@ footer {
 	color:#FEB729;
 	margin-top:55px;
 }
-
 
 
 .construction {
@@ -110,8 +103,10 @@ h3 {
 	padding-bottom:40px;
 	padding-left:10px;
 	color:#00275E;
-	border-style:inset;
 	background-color:#DCDCDC;
+	margin-top:30px;
+	margin-bottom:30px;
+
 }
 
 h2 {
@@ -144,6 +139,7 @@ ul {
 	list-style-type:none;
 	margin-top:50px;
 
+
 }
 
 #cult-blog {
@@ -151,13 +147,14 @@ ul {
 	color:#00275E;
 
 }
+
  @media (min-width:50%) {
 	#cult-blog{
 		max-width:50%;
 
 	}
 }
-
+/*
  @media (min-height:50%) {
  	#tech-blog{
  		max-height:50%;
@@ -169,4 +166,10 @@ ul {
 		max-height:50%;
 		max-width:50%;
 }
+*/
+
+#second {
+	margin-top:50px;
+}
+
 
