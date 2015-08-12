@@ -65,7 +65,7 @@ footer {
 #navigate {
 	background-color:#1D2326;
 	margin-top:50px;
-	text-align: left;
+	text-align: center;
 	margin:10px 10px;
 }
 
@@ -123,12 +123,14 @@ h2 {
 	font-style: italic;
 	font-weight:bolder;
 	color:#00275E;
+	text-align:center;
 }
 
 #colors {
-	border: 2px solid #FEB729;
+	border: 2px solid #00275E;
 	margin-top:30px;
-
+	margin-left:10px;
+	margin-right:10px;
 }
 
 #name {
@@ -196,4 +198,15 @@ ul {
 	background-repeat:no-repeat;
 
 
+}
+
+#foot {
+	background-color:#1D2326;
+	height:80px;
+	padding-top:30px;
+}
+
+.foot_icon {
+	margin:40px 40px;
+	margin-top:20px;
 }
