@@ -1,12 +1,30 @@
 body {
-	background: url('http://1.bp.blogspot.com/-2TO5FqBrhsg/U42z6NV3pmI/AAAAAAAAC10/WtRt6Hfo_m4/s1600/smile-code-wallpaper.jpg');
+	background: url('http://static.tumblr.com/bff1b9630e811d680f32958fe30e0694/w23mivd/KK1myabef/tumblr_static_crumpled_paper_background_image_by_k4l3b-d5fxhl3.jpg');
 	background-size:100% 100%;
 	background-repeat:no-repeat;
+
 }
 
 #tech-b {
 	text-align: middle;
 	font-weight:bolder;
-	color:#FEB729;
+	color:#191970;
 	font-size:16px;
+	font-family:"Times New Roman";
+}
+
+article {
+	margin:20px 20px;
+}
+
+h4 {
+	margin-top:100px;
+}
+
+#tech-b {
+	max-width:600px;
+}
+
+#tech-b h4 {
+	text-align:left;
 }
