@@ -8,7 +8,8 @@ $(images).hover('slow', function(){
 	$(this).fadeIn('slow');
 	});
 
-var cartoon = document.querySelectorAll('.asian')
+
+	});
 
 
 })

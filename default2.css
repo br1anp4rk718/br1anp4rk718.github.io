@@ -106,6 +106,7 @@ footer {
 
 .construction {
 	margin-top:270px;
+	margin-bottom:80px;
 }
 
 h3 {
@@ -201,7 +202,7 @@ ul {
 .foot_icon {
 	margin:40px 40px;
 	margin-top:20px;
-}
+} 
 
 
 body {
@@ -217,4 +218,8 @@ body {
 	max-height:200px;
 	overflow-x:hidden;
 
+}
+
+#latest_news {
+	max-height:300px;
 }
