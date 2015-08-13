@@ -64,14 +64,16 @@ footer {
 
 #navigate {
 	background-color:#1D2326;
-	margin-top:50px;
 	text-align: center;
-	margin:10px 10px;
+
+
 }
 
 
 #first_caro {
-	margin-top:60px;
+	min-width:100%;
+	padding-right:0px;
+	padding-left:0px;
 
 }
 
@@ -108,7 +110,7 @@ footer {
 
 h3 {
 	font-size:18px;
-	border: 5px solid #00275E;
+	border: 2px solid #00275E;
 	padding-top:50px;
 	padding-bottom:40px;
 	padding-left:10px;
@@ -127,17 +129,17 @@ h2 {
 }
 
 #colors {
-	border: 2px solid #00275E;
-	margin-top:30px;
-	margin-left:10px;
-	margin-right:10px;
+
 }
 
 #name {
 	text-align: center;
 	color:#A8B1B8;
-	background-color:#DCDCDC;
-	border:2px solid #00275E;
+	background:url(imgs/20141231_183605.jpg);
+	background-size:110% 800px;
+	background-repeat:no-repeat;
+	min-height:400px;
+	min-width:100%;
 }
 
 .italics {
@@ -150,6 +152,7 @@ h2 {
 	font-weight:bolder;
 	font-size:15px;
 	font-style:oblique;
+	margin-top:30px;
 }
 
 ul {
@@ -173,25 +176,14 @@ ul {
 
 	}
 }
-/*
- @media (min-height:50%) {
- 	#tech-blog{
- 		max-height:50%;
- 	}
- }
 
- @media (min-height:50%) {
-	#tech-blog {
-		max-height:50%;
-		max-width:50%;
-}
-*/
 
 #second {
 	margin-top:50px;
 }
 
 #tech-blog {
+
 	text-align:center;
 	background:url('http://www.gfi.com/blog/wp-content/uploads/2009/09/Note-to-Self.jpg');
 	background-size:580px 450px;
@@ -209,4 +201,13 @@ ul {
 .foot_icon {
 	margin:40px 40px;
 	margin-top:20px;
+}
+
+
+body {
+	background-color:#F0F8FF;
+}
+
+.navbar {
+	margin-bottom:0px;
 }
