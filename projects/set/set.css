@@ -1,0 +1,205 @@
+body {
+	background-image: url('http://gamefroot.com/wp-content/files/2013/12/desert.png');
+}
+
+h1 {
+	font-family:Century, sans-serif;
+	font-size:40px;
+}
+
+.center {
+	text-align:center;
+	padding:0;
+}
+
+.cardwrap {
+	text-align:center;
+	padding-top:50px;
+	margin:0px 10px 10px 0px;
+}
+
+.rules {
+	text-align:center;
+	padding:0;
+}
+
+p {
+	font-size: 40px;
+	font-style: bold;
+}
+
+.highScore {
+	text-align:center;
+	font-size:30px;
+	font-style:bold italic;
+}
+
+#scoreboard {
+	text-align:center;
+	padding-top:30px;
+	padding-left:40px;
+	font-size:20px;
+	list-style-type:none;
+}
+
+.boxNum1 {
+	float:left;
+	padding-top:25px;
+	padding-right:15px;
+	padding-left:25px;
+	padding-bottom:25px;
+
+}
+
+.boxNum2 {
+	float:left;
+	padding-top:25px;
+	padding-right:15px;
+	padding-left:25px;
+	padding-bottom:25px;
+}
+
+.boxNum3 {
+	float:left;
+	padding-top:25px;
+	padding-right:15px;
+	padding-left:25px;
+	padding-bottom:25px;
+}
+
+.boxNum4 {
+	float:left;
+	padding-top:25px;
+	padding-right:15px;
+	padding-left:25px;
+	padding-bottom:25px;
+}
+
+.boxNum5 {
+	float:left;
+	padding-top:25px;
+	padding-right:15px;
+	padding-left:25px;
+	padding-bottom:25px;
+
+}
+
+.boxNum6 {
+	float:left;
+	padding-top:25px;
+	padding-right:15px;
+	padding-left:25px;
+	padding-bottom:25px;
+}
+
+.boxNum7 {
+	float:left;
+	padding-top:25px;
+	padding-right:15px;
+	padding-left:25px;
+	padding-bottom:25px;
+
+}
+
+.boxNum8 {
+	float:left;
+	padding-top:25px;
+	padding-right:15px;
+	padding-left:25px;
+	padding-bottom:25px;
+}
+
+.boxNum9 {
+	float:left;
+	padding-top:25px;
+	padding-right:15px;
+	padding-left:25px;
+	padding-bottom:25px;
+}
+
+.boxNum10 {
+	float:left;
+	padding-top:25px;
+	padding-right:15px;
+	padding-left:25px;
+	padding-bottom:25px;
+}
+
+.boxNum11 {
+	float:left;
+	padding-top:25px;
+	padding-right:15px;
+	padding-left:25px;
+	padding-bottom:25px;
+}
+
+.boxNum12 {
+	float:left;
+	padding-top:25px;
+	padding-right:15px;
+	padding-left:25px;
+	padding-bottom:25px;
+}
+
+button {
+	width: 300px;
+    height: 200px;
+    margin:1px 1px 1px 1px;
+    border:thick;
+    border-radius:0px 0px 0px 0px;
+    cursor:pointer;
+    color:#ffffff;
+    background-color:transparent;
+    border:groove;
+
+}
+
+button:hover {
+	background-color:#CC9933;
+	font-size:500%;
+}
+
+button:active {
+	background-color:#CC9933;
+}
+
+.example {
+	text-align:center;
+	padding:25px 25px 25px 25px;
+}
+
+.example li {
+	padding:25px 25px 25px 25px;
+}
+
+.highlight {
+	width: 300px;
+    height: 200px;
+    margin:1px 1px 1px 1px;
+    border:thick;
+    border-radius:0px 0px 0px 0px;
+    cursor:pointer;
+    color:#ffffff;
+    background-color:#FFFF00;
+    border:groove;
+}
+
+#point {
+	text-align:center;
+	font-size:20px;
+	font-weight:bolder;
+
+}
+
+.border {
+	border-style:none;
+	border-width:1px;
+
+}
+
+.highlight:active {
+	background-color:#CC6600;
+}
+
+
+
