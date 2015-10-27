@@ -156,6 +156,11 @@ h2 {
 	margin-top:30px;
 }
 
+#cult {
+	list-style-type:none;
+	margin-top:50px;
+
+
 }
 
 #cult-blog {
@@ -165,7 +170,7 @@ h2 {
 	background-size:580px 500px;
 	background-repeat:no-repeat;	
 	list-style-type:none;
-	margin-top:50px;
+
 }
 
  @media (min-width:50%) {
@@ -186,7 +191,6 @@ h2 {
 	background:url('http://www.gfi.com/blog/wp-content/uploads/2009/09/Note-to-Self.jpg');
 	background-size:580px 450px;
 	background-repeat:no-repeat;
-	margin-top:50px;
 
 
 }
@@ -226,5 +230,13 @@ body {
 	background:url('http://www.babylonclub.ca/wp-content/uploads/2012/12/RPS.png');
 	background-repeat:no-repeat;
 	background-size: 100%;
+}
+
+.tech {
+	list-style: none;
+}
+
+.resumehead {
+	text-align: center;
 }
 
