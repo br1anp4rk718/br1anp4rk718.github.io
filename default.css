@@ -29,3 +29,14 @@ h4 {
 	text-align:left;
 }
 
+#left {
+	color:red;
+}
+
+#middle {
+	color:blue;
+}
+
+#right {
+	color:yellow;
+}
